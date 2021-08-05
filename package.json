@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "cypress": "cypress",
-    "cypress:run": "yarn cypress run",
+    "cypress:run": "yarn cypress run --headed",
     "cypress:open": "npm run cypress -- open",
     "cypress:ci": "start-server-and-test start http://localhost:4200 cypress:run"
   },
